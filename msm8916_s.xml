@@ -4,7 +4,7 @@
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="Gabboxl/android_device_samsung_msm8916-common" remote="github" revision="lineage-19.1"/>
   <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung" name="RushilGithub/proprietary_vendor_samsung"/>
+  <project path="vendor/samsung" name="RushilGithub/proprietary_vendor_samsung" remote="github" revision="lineage-17.1"/>
  
   <!-- LineageOS repos -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>

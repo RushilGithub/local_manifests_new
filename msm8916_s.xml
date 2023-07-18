@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- TWRP source code -->
-<!--  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-11"/> -->
 
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="Gabboxl/android_device_samsung_msm8916-common" remote="github" revision="lineage-19.1"/>
   <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-19.1"/>
-
+ 
   <!-- LineageOS repos -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.1"/>
@@ -37,17 +34,8 @@
   <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" />
 
   <!-- Grand Prime specific trees -->
-  <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-19.1"/>
-
-  <project path="device/samsung/gprimeltexx" name="Gabboxl/android_device_samsung_gprimeltexx" remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/o7-common" name="RushilGithub/android_device_samsung_o7-common" remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/o7prolte" name="RushilGithub/android_device_samsung_gprimeltexx" remote="github" revision="lineage-19.1"/>
   
-  <!-- Temp disable unsupported variants
-  <project path="device/samsung/fortuna3g" name="Gabboxl/android_device_samsung_fortuna3g" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/fortunave3g" name="Gabboxl/android_device_samsung_fortunave3g" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/fortunalteub" name="Gabboxl/android_device_samsung_fortunalteub" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/gprimelte" name="Gabboxl/android_device_samsung_gprimelte" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/fortuna3gdtv" name="Gabboxl/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-19.0"/>
-  <project path="device/samsung/fortunaltedx" name="Gabboxl/android_device_samsung_fortunaltedx" remote="github" revision="lineage-19.0"/> -->
+ 
 </manifest>

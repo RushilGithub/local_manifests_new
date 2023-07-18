@@ -34,9 +34,9 @@
   <!-- GcamGo package -->
   <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" />
 
-  <!-- Grand Prime specific trees -->
+  <!-- O7prolte specific trees -->
   <project path="device/samsung/o7-common" name="RushilGithub/android_device_samsung_o7-common" remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/o7prolte" name="RushilGithub/android_device_samsung_gprimeltexx" remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/o7prolte" name="RushilGithub/android_device_samsung_o7prolte" remote="github" revision="lineage-19.1"/>
   
  
 </manifest>
